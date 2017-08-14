@@ -276,7 +276,6 @@ section.work {
 
 
 section.twitter {
-  padding-top: 150px;
   height: 510px;
   box-sizing: border-box;
 }
@@ -305,7 +304,21 @@ section.twitter {
 .twitter-post .title {
   font-size: 20px;
   font-weight: 400;
+  margin-top: 170px;
+  position: relative;
   text-align: center;
+}
+
+.twitter-post .title::before {
+  background-position:0 -585px;
+  width: 32px;
+  top: -45px;
+  left: 48.5%;
+  height: 27px;
+  content: "";
+  position: absolute;
+  background-image:url('img/icons.png');
+  background-repeat: no-repeat;
 }
 
 .twitter-post .title a {
@@ -322,7 +335,7 @@ section.twitter {
 
 .slider-buttons {
   position: absolute;
-  top: 230px;
+  top: 380px;
   left: 645px;
   display: flex;
   justify-content: center;
