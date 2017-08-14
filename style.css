@@ -457,9 +457,10 @@ section.shop {
   border: none;
 }
 
+
 .page-footer {
   width: 100%;
-  height: 250px;
+  height: 280px;
 }
 
 .page-footer div {
@@ -469,12 +470,13 @@ section.shop {
 
 .page-footer .left-col {
   box-sizing: border-box;
-  padding-left: 110px;
-  padding-top: 50px;
+  padding-left: 105px;
+  padding-top: 80px;
 }
 
 .page-footer .left-col p {
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 25px;
 }
 
 .page-footer .left-col p a {
@@ -488,14 +490,14 @@ section.shop {
 
 .page-footer .mid-col {
   box-sizing: border-box;
-  padding-left: 150px;
-  padding-top: 80px;
+  padding-left: 145px;
+  padding-top: 115px;
 }
 
 .page-footer .mid-col .social-btn {
   width: 34px;
   height: 34px;
-  margin-right: 15px;
+  margin-right: 20px;
   background-color: #ffffff;
   border-radius: 50%;
 }
@@ -506,6 +508,8 @@ section.shop {
 
 .page-footer .right-col {
   box-sizing: border-box;
-  padding-left: 100px;
-  padding-top: 60px;
+  padding-left: 190px;
+  font-size: 15px;
+  font-style: italic;
+  padding-top: 100px;
 }
