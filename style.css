@@ -466,6 +466,18 @@ section.shop {
   text-transform: uppercase;
 }
 
+.shop-item a::before {
+  background-position:0 -612px;
+  width: 51px;
+  top: -40px;
+  left: 25.5%;
+  height: 30px;
+  content: "";
+  position: absolute;
+  background-image:url('img/icons.png');
+  background-repeat: no-repeat;
+}
+
 .shop-item:hover a {
   opacity: 1;
 }
