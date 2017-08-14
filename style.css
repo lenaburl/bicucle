@@ -66,12 +66,13 @@ body {
   color: #4d4959;
 }
 
+
 .about-us {
   margin : 0 auto;
   padding: 0;
   text-align: center;
   height: 470px;
-  padding-top: 195px;
+  padding-top: 170px;
   box-sizing: border-box;
   font-family: "Myriad Pro", sans-serif;
   font-weight: normal;
@@ -81,14 +82,18 @@ body {
 .about-us .title {
   text-transform: uppercase;
   color: #353738;
+  font-size: 19px;
+  font-weight: 300;
   position: relative;
 }
 
 .about-us .description {
-  width: 1050px;
+  width: 1045px;
+  font-size: 17px;
   text-align: center;
   margin: 0 auto;
 }
+
 
 section.work {
   min-height: 1800px;
@@ -110,24 +115,48 @@ section.work {
 .work-item.narrow {
   width: 33.333334%;
   text-align: center;
-  padding-top: 130px;
+  padding-top: 115px;
   box-sizing: border-box;
   background-repeat: no-repeat;
 }
 
 .work-item.narrow .title {
-  font-weight: bold;
+  position: relative;
+  font-weight: 700;
+  font-size: 17.5px;
   text-transform: uppercase;
   color: #353738;
 }
 
+.work-item.narrow .title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  border-top: 1px solid #d7d7d7;
+  top: 235px;
+  left: 45%;
+}
+
 .work-item.narrow .description {
   text-align: justify;
+  position: relative;
   margin: 0 12.5%;
   font-family: "Myriad Pro", sans-serif;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+
+.work-item.narrow .description::after {
+  content: "";
+  position: absolute;
+  display: block;
+  border: 20px solid transparent;
+  border-top: 20px solid #f7f7f7;
+  top: 222px;
+  left: 45%;
 }
 
 .work-item:first-child {
