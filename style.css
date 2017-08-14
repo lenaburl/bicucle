@@ -90,6 +90,10 @@ body {
   margin: 0 auto;
 }
 
+section.work {
+  min-height: 1800px;
+}
+
 .work-item {
   float: left;
   height: 600px;
@@ -118,7 +122,6 @@ body {
 }
 
 .work-item.narrow .description {
-  color: #848789;
   text-align: justify;
   margin: 0 12.5%;
   font-family: "Myriad Pro", sans-serif;
@@ -156,4 +159,79 @@ body {
 
 .work-item:nth-of-type(7) {
   background-image: url("img/work-item-7.png");
+}
+
+section.twitter {
+  padding-top: 190px;
+  height: 470px;
+  box-sizing: border-box;
+}
+
+.twitter-slider {
+  position: relative;
+}
+
+.slider-inner {
+  overflow: hidden;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.slider-slides {
+  width: 300%;
+  transition: transform 0.8s ease;
+}
+
+.slide {
+  float: left;
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.twitter-post .title {
+  text-align: center;
+}
+
+.twitter-post .title a {
+  text-decoration: none;
+  color: #353738;
+}
+
+.twitter-post .post {
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+}
+
+.slider-buttons {
+  position: absolute;
+  top: 200px;
+  left: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.slider-buttons input[type="radio"] {
+  display: none;
+}
+
+.slider-controls label {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  margin-right: 9px;
+  background-color: transparent;
+  border-color: #a9afb3;
+  border: solid 1px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
+  background-color: #a9afb3;
 }
