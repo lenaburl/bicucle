@@ -37,7 +37,7 @@ body {
 }
 
 .main-nav {
-  max-width: 640px;
+  max-width: 670px;
   margin: 0 auto;
   padding: 0;
   padding-top: 55px;
@@ -52,7 +52,10 @@ body {
 .main-nav ul li {
   float: left;
   text-transform: uppercase;
-  margin-right: 40px;
+  margin-right: 35px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 14px;
 }
 
 .main-nav ul li.right {
@@ -61,9 +64,12 @@ body {
 
 .main-nav ul li a {
   text-decoration: none;
-  font-weight: bold;
-  font-size: 14px;
   color: #4d4959;
+}
+
+
+.main-nav ul li a:hover {
+  color: #64c29e;
 }
 
 
@@ -359,7 +365,7 @@ section.shop {
 .shop-item a {
   opacity: 0;
   z-index: 2;
-  position: relative;;
+  position: relative;
   letter-spacing: 3px;
   font-weight: 700;
   text-decoration: none;
