@@ -190,9 +190,10 @@ section.work {
   background-image: url("img/work-item-7.png");
 }
 
+
 section.twitter {
-  padding-top: 190px;
-  height: 470px;
+  padding-top: 150px;
+  height: 510px;
   box-sizing: border-box;
 }
 
@@ -202,7 +203,7 @@ section.twitter {
 
 .slider-inner {
   overflow: hidden;
-  width: 1040px;
+  width: 1060px;
   margin: 0 auto;
 }
 
@@ -213,29 +214,32 @@ section.twitter {
 
 .slide {
   float: left;
-  width: 1040px;
+  width: 1060px;
   margin: 0 auto;
 }
 
 .twitter-post .title {
+  font-size: 20px;
+  font-weight: 400;
   text-align: center;
 }
 
 .twitter-post .title a {
   text-decoration: none;
+  font-weight: 700;
   color: #353738;
 }
 
 .twitter-post .post {
   font-style: italic;
-  font-size: 24px;
+  font-size: 25px;
   text-align: center;
 }
 
 .slider-buttons {
   position: absolute;
-  top: 200px;
-  left: 620px;
+  top: 230px;
+  left: 645px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -248,8 +252,8 @@ section.twitter {
 
 .slider-controls label {
   display: inline-block;
-  width: 13px;
-  height: 13px;
+  width: 11px;
+  height: 11px;
   margin-right: 9px;
   background-color: transparent;
   border-color: #a9afb3;
