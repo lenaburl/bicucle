@@ -356,6 +356,7 @@ section.shop {
   padding-top: 235px;
   font-style: italic;
   font-size: 24px;
+  background-color: #ffffff;
 }
 
 .mailing .title {
@@ -397,4 +398,57 @@ section.shop {
   color: #ffffff;
   background-color: #64c29e;
   border: none;
+}
+
+.page-footer {
+  width: 100%;
+  height: 250px;
+}
+
+.page-footer div {
+  float: left;
+  width: 33.3334%;
+}
+
+.page-footer .left-col {
+  box-sizing: border-box;
+  padding-left: 110px;
+  padding-top: 50px;
+}
+
+.page-footer .left-col p {
+  line-height: 30px;
+}
+
+.page-footer .left-col p a {
+  text-decoration: none;
+  color: #848789;
+}
+
+.page-footer .left-col p a:hover {
+  color: #64c29e;
+}
+
+.page-footer .mid-col {
+  box-sizing: border-box;
+  padding-left: 150px;
+  padding-top: 80px;
+}
+
+.page-footer .mid-col .social-btn {
+  width: 34px;
+  height: 34px;
+  margin-right: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.page-footer .mid-col .social-btn:last-child {
+  margin-right: 0;
+}
+
+.page-footer .right-col {
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 60px;
 }
