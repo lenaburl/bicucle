@@ -93,6 +93,18 @@ body {
   position: relative;
 }
 
+.about-us .title::before {
+  content: "";
+  position: absolute;
+  top: -65px;
+  left: 48%;
+  background-image:url('img/icons.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  width:52px;
+  height:43px;
+}
+
 .about-us .description {
   width: 1045px;
   font-size: 17px;
