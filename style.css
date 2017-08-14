@@ -321,6 +321,29 @@ section.shop {
   opacity: 1;
   z-index: 1;
 }
-.discover-shop {
+.shop .discover-shop {
   clear: both;
+  width: 100%;
+  height: 200px;
+  background-color: #282f35;
+  box-sizing: border-box;
+  text-align: center;
+  padding-top: 75px;
+}
+
+
+.shop .discover-shop a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Myriad Pro", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: solid 1px #ffffff;
+  padding: 20px 68px;
+}
+
+.shop .discover-shop a:hover {
+  color: #64c29e;
+  border-color: #64c29e;
 }
