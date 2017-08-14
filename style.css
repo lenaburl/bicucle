@@ -235,3 +235,92 @@ section.twitter {
 #btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background-color: #a9afb3;
 }
+
+
+section.shop {
+  min-height: 735px;
+}
+
+.shop div {
+  width: 33.33334%;
+  float: left;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+.shop-item {
+  position: relative;
+  text-align: center;
+  padding-top: 132px;
+  box-sizing: border-box;
+  background-color: #64c29e;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.shop-item.small {
+  width: 50%;
+  height: 50%;
+}
+
+.shop-item.high {
+  height: 100%;
+  width: 50%;
+  padding-top: 50%;
+}
+
+.shop-item.wide {
+  height: 50%;
+  width: 100%;
+}
+
+.left-col .shop-item:first-child {
+  background-image: url("img/shop-item-1.png");
+}
+
+.left-col .shop-item:nth-child(2) {
+  background-image: url("img/shop-item-2.png");
+}
+
+.left-col .shop-item:last-child {
+  background-image: url("img/shop-item-3.png");
+}
+
+.mid-col .shop-item:first-child {
+  background-image: url("img/shop-item-4.png");
+}
+
+.mid-col .shop-item:last-child {
+  background-image: url("img/shop-item-5.png");
+}
+
+.right-col .shop-item:first-child {
+  background-image: url("img/shop-item-6.png");
+}
+
+.right-col .shop-item:nth-child(2) {
+  background-image: url("img/shop-item-7.png");
+}
+
+.right-col .shop-item:last-child {
+  background-image: url("img/shop-item-8.png");
+}
+
+.shop-item a {
+  opacity: 0;
+  z-index: 1;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Myriad Pro", sans-serif;
+  text-transform: uppercase;
+}
+
+.shop-item:hover a {
+  opacity: 1;
+  z-index: 1;
+}
+.discover-shop {
+  clear: both;
+}
