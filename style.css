@@ -128,10 +128,19 @@ section.work {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+
+.work-item.wide::after {
+  content: "";
+  position: absolute;
+  background-image:url('img/icons.png');
+  background-repeat: no-repeat;
 }
 
 .work-item.narrow {
   width: 33.333334%;
+  position: relative;
   text-align: center;
   padding-top: 115px;
   box-sizing: border-box;
@@ -144,6 +153,13 @@ section.work {
   font-size: 17.5px;
   text-transform: uppercase;
   color: #353738;
+}
+
+.work-item.narrow .title::before {
+  content: "";
+  position: absolute;
+  background-image:url('img/icons.png');
+  background-repeat: no-repeat;
 }
 
 .work-item.narrow .title::after {
@@ -166,7 +182,6 @@ section.work {
   line-height: 25px;
 }
 
-
 .work-item.narrow .description::after {
   content: "";
   position: absolute;
@@ -181,6 +196,22 @@ section.work {
   background-image: url("img/work-item-1.png");
 }
 
+.work-item:first-child::after {
+  background-position:0 -145px;
+  width: 113px;
+  top: 245px;
+  left: 44%;
+  height: 118px;
+}
+
+.work-item:nth-of-type(2) .title::before {
+  background-position:0 -263px;
+  width:41px;
+  top: -57px;
+  left: 45.5%;
+  height:30px;
+}
+
 .work-item:nth-of-type(2) {
   background-image: url("img/work-item-2.png");
   background-position: center bottom;
@@ -191,17 +222,52 @@ section.work {
   background-position: center bottom;
 }
 
+.work-item:nth-of-type(3) .title::before {
+  background-position:0 -293px;
+  width:32px;
+  top: -60px;
+  left: 46.5%;
+  height:32px;
+}
+
 .work-item:nth-of-type(4) {
   background-image: url("img/work-item-4.png");
+}
+
+.work-item:nth-of-type(4)::after {
+  background-position:0 -325px;
+  width: 177px;
+  top: 230px;
+  left: 40%;
+  height: 152px;
 }
 
 .work-item:nth-of-type(5) {
   background-image: url("img/work-item-5.png");
 }
 
+.work-item:nth-of-type(5)::after {
+  background-position:0 -477px;
+  width: 208px;
+  top: 295px;
+  left: 25.5%;
+  height: 67px;
+  content: "";
+  position: absolute;
+  background-image:url('img/icons.png');
+  background-repeat: no-repeat;
+}
+
 .work-item:nth-of-type(6) {
   background-image: url("img/work-item-6.png");
   background-position: center bottom;
+}
+.work-item:nth-of-type(6) .title::before {
+  background-position:0 -544px;
+  width:23px;
+  top: -56px;
+  left: 47.5%;
+  height:41px;
 }
 
 .work-item:nth-of-type(7) {
