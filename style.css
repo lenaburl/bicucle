@@ -70,6 +70,7 @@ body {
 
 .main-nav ul li a:hover {
   color: #64c29e;
+  transition: 0.2s linear;
 }
 
 
