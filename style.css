@@ -382,12 +382,13 @@ section.shop {
 .shop-item {
   position: relative;
   text-align: center;
-  padding-top: 115px;
+  padding-top: 0;
   box-sizing: border-box;
   background-color: #64c29e;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  transition: padding-top 0.4s ease-out;
 }
 
 .shop-item.small {
@@ -398,7 +399,7 @@ section.shop {
 .shop-item.high {
   height: 100%;
   width: 50%;
-  padding-top: 49%;
+  padding-top: 0;
 }
 
 .shop-item.wide {
@@ -452,6 +453,7 @@ section.shop {
 
 .shop-item:hover::after {
   opacity: 0.8;
+  transition: 0.4s ease-out;
 }
 
 .shop-item a {
@@ -465,6 +467,7 @@ section.shop {
   font-size: 14px;
   font-family: "Myriad Pro", sans-serif;
   text-transform: uppercase;
+  transition: 0.4s ease-out;
 }
 
 .shop-item a::before {
@@ -481,6 +484,14 @@ section.shop {
 
 .shop-item:hover a {
   opacity: 1;
+}
+
+.shop-item:hover {
+  padding-top: 115px;
+}
+
+.shop-item.high:hover {
+  padding-top: 49%;
 }
 
 .shop .discover-shop {
@@ -509,6 +520,7 @@ section.shop {
 .shop .discover-shop a:hover {
   color: #64c29e;
   border-color: #64c29e;
+  transition: 0.2s linear;
 }
 
 
@@ -598,6 +610,7 @@ section.shop {
 
 .page-footer .left-col p a:hover {
   color: #64c29e;
+  transition: 0.2s linear;
 }
 
 .page-footer .mid-col {
