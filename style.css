@@ -594,7 +594,7 @@ section.shop {
 
 .page-footer .left-col {
   box-sizing: border-box;
-  padding-left: 105px;
+  padding-left: 8%;
   padding-top: 80px;
 }
 
@@ -615,7 +615,7 @@ section.shop {
 
 .page-footer .mid-col {
   box-sizing: border-box;
-  padding-left: 145px;
+  padding-left: 10.5%;
   padding-top: 115px;
 }
 
@@ -633,7 +633,7 @@ section.shop {
 
 .page-footer .right-col {
   box-sizing: border-box;
-  padding-left: 190px;
+  padding-left: 14%;
   font-size: 15px;
   font-style: italic;
   padding-top: 100px;
