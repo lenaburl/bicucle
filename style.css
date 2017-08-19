@@ -5,6 +5,7 @@ body {
 }
 
 body {
+  min-width: 220px;
   margin: 0 auto;
   font-family: "Lato", sans-serif;
   font-size: 18px;
@@ -79,7 +80,7 @@ body {
   margin : 0 auto;
   padding: 0;
   text-align: center;
-  height: 470px;
+  min-height: 470px;
   padding-top: 170px;
   box-sizing: border-box;
   font-family: "Myriad Pro", sans-serif;
@@ -121,7 +122,7 @@ section.work {
 
 .work-item {
   float: left;
-  height: 600px;
+  min-height: 600px;
 }
 
 .work-item.wide {
@@ -278,7 +279,7 @@ section.work {
 
 
 section.twitter {
-  height: 510px;
+  min-height: 510px;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
@@ -613,4 +614,109 @@ section.shop {
   width: 55px;
   height: 36px;
   position: absolute;
+}
+
+@media (max-width: 1070px) {
+  .work .work-item {
+    width: 100%;
+  }
+
+  .work-item:nth-of-type(2) .title::before,
+  .work-item:nth-of-type(3) .title::before {
+    left: 48%;
+  }
+
+  .work-item:nth-of-type(6) .title::before {
+    left: 49%;
+  }
+
+  .work-item:nth-of-type(5)::after {
+    left: 40%;
+  }
+
+  .work-item.narrow .description::after,
+  .work-item.narrow .title::after {
+    display: none;
+  }
+
+  .work-item.narrow {
+    background-size: 100% 40%;
+  }
+
+  .work-item:nth-of-type(5),
+  .work-item:nth-of-type(7) {
+    background-size: cover;
+  }
+
+  .shop-item.high:hover {
+    padding-top: 70%;
+  }
+}
+
+@media (max-width: 570px) {
+  .work-item.narrow {
+    background-size: 100% 30%;
+  }
+
+  .work-item:nth-of-type(5),
+  .work-item:nth-of-type(7) {
+    background-size: cover;
+  }
+
+  .work-item:nth-of-type(4)::after {
+    left: 35%;
+  }
+
+  .work-item:nth-of-type(5)::after {
+    left: 32%;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .work-item.narrow {
+    background-size: 100% 20%;
+  }
+
+  .work-item:nth-of-type(5),
+  .work-item:nth-of-type(7) {
+    background-size: cover;
+  }
+
+  .work-item:first-child::after {
+    left: 32%;
+  }
+
+  .work-item:nth-of-type(4)::after {
+    left: 25%;
+  }
+
+  .work-item:nth-of-type(5)::after {
+    left: 17%;
+  }
+
+}
+
+
+@media (max-width: 250px) {
+  .work-item.narrow {
+    background-size: 100% 15%;
+  }
+
+  .work-item:nth-of-type(5),
+  .work-item:nth-of-type(7) {
+    background-size: cover;
+  }
+
+  .work-item:first-child::after {
+    left: 25%;
+  }
+
+  .work-item:nth-of-type(4)::after {
+    left: 10%;
+  }
+
+  .work-item:nth-of-type(5)::after {
+    left: 2%;
+  }
 }
