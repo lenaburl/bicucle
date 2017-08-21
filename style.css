@@ -650,9 +650,19 @@ section.shop {
     background-size: cover;
   }
 
-  .shop-item.high:hover {
-    padding-top: 70%;
+  .shop div {
+    float: none;
+    width: 100%;
   }
+
+  .shop div div {
+    float: left;
+  }
+
+  .shop .shop-item.high:hover {
+    padding-top: 25%;
+  }
+
 }
 
 @media (max-width: 900px) {
@@ -684,6 +694,12 @@ section.shop {
   }
 }
 
+@media (max-width: 750px) {
+  .shop .shop-item.high:hover {
+    padding-top: 30%;
+  }
+}
+
 @media (max-width: 570px) {
   .work-item.narrow {
     background-size: 100% 30%;
@@ -709,6 +725,10 @@ section.shop {
   .mailing .title::before {
     left: 42%;
   }
+
+  .shop .shop-item.high:hover {
+    padding-top: 40%;
+  }
 }
 
 @media (max-width: 430px) {
@@ -719,6 +739,10 @@ section.shop {
 
   .mailing .title::before {
     left: 40%;
+  }
+
+  .shop .shop-item.high:hover {
+    padding-top: 50%;
   }
 }
 
@@ -749,6 +773,10 @@ section.shop {
     left: 38%;
   }
 
+  .shop .shop-item.high:hover {
+    padding-top: 75%;
+  }
+
 }
 
 
@@ -776,5 +804,9 @@ section.shop {
 
   .mailing .title::before {
     left: 32%;
+  }
+
+  .shop .shop-item.high:hover {
+    padding-top: 85%;
   }
 }
