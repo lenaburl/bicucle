@@ -492,7 +492,7 @@ section.shop {
 
 .mailing {
   width: 100%;
-  height: 470px;
+  min-height: 470px;
   box-sizing: border-box;
   text-align: center;
   padding-top: 210px;
@@ -523,6 +523,7 @@ section.shop {
 .mailing form input[type="email"] {
   height: 69px;
   width: 380px;
+  margin-bottom: 10px;
   padding-left: 28px;
   box-sizing: border-box;
   outline-color: #64c29e;
@@ -540,6 +541,7 @@ section.shop {
   cursor: pointer;
   line-height: 24px;
   font-size: 20px;
+  margin-bottom: 10px;
   outline-color: #64c29e;
   font-weight: 300;
   color: #ffffff;
@@ -550,7 +552,7 @@ section.shop {
 
 .page-footer {
   width: 100%;
-  height: 280px;
+  min-height: 280px;
 }
 
 .page-footer div {
@@ -653,6 +655,35 @@ section.shop {
   }
 }
 
+@media (max-width: 900px) {
+  .page-footer .left-col,
+  .page-footer .mid-col,
+  .page-footer .right-col {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
+
+  .page-footer .mid-col {
+    width: 150px;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .page-footer .left-col {
+    margin-bottom: 20px;
+  }
+
+  .page-footer .right-col {
+    padding-right: 50px;
+    margin-top: 20px
+  }
+
+  .mailing .title::before {
+    left: 45%;
+  }
+}
+
 @media (max-width: 570px) {
   .work-item.narrow {
     background-size: 100% 30%;
@@ -674,13 +705,20 @@ section.shop {
   .mailing form input[type="email"] {
     max-width: 250px;
   }
+
+  .mailing .title::before {
+    left: 42%;
+  }
 }
 
 @media (max-width: 430px) {
   .mailing form input[type="email"] {
     max-width: 200px;
     font-size: 18px;
-    margin-bottom: 10px;
+  }
+
+  .mailing .title::before {
+    left: 40%;
   }
 }
 
@@ -707,6 +745,10 @@ section.shop {
     left: 17%;
   }
 
+  .mailing .title::before {
+    left: 38%;
+  }
+
 }
 
 
@@ -730,5 +772,9 @@ section.shop {
 
   .work-item:nth-of-type(5)::after {
     left: 2%;
+  }
+
+  .mailing .title::before {
+    left: 32%;
   }
 }
