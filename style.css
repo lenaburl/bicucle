@@ -280,6 +280,7 @@ section.work {
 
 section.twitter {
   min-height: 510px;
+  max-height: 900px;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
@@ -288,6 +289,7 @@ section.twitter {
 .twitter .slider {
   position: relative;
   padding-left: 12%;
+  padding-bottom: 50px;
 }
 
 .slide {
@@ -729,10 +731,6 @@ section.shop {
   .shop .shop-item.high:hover {
     padding-top: 40%;
   }
-
-  section.twitter {
-    height: 600px;
-  }
 }
 
 @media (max-width: 430px) {
@@ -747,10 +745,6 @@ section.shop {
 
   .shop .shop-item.high:hover {
     padding-top: 50%;
-  }
-
-  section.twitter {
-    height: 650px;
   }
 }
 
@@ -784,16 +778,6 @@ section.shop {
   .shop .shop-item.high:hover {
     padding-top: 75%;
   }
-
-  section.twitter {
-    height: 700px;
-  }
-}
-
-@media (min-height: 280px) {
-  section.twitter {
-    height: 800px;
-  }
 }
 
 
@@ -825,9 +809,5 @@ section.shop {
 
   .shop .shop-item.high:hover {
     padding-top: 85%;
-  }
-
-  section.twitter {
-    max-height: 900px;
   }
 }
