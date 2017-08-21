@@ -729,6 +729,10 @@ section.shop {
   .shop .shop-item.high:hover {
     padding-top: 40%;
   }
+
+  section.twitter {
+    min-height: 600px;
+  }
 }
 
 @media (max-width: 430px) {
@@ -743,6 +747,10 @@ section.shop {
 
   .shop .shop-item.high:hover {
     padding-top: 50%;
+  }
+
+  section.twitter {
+    min-height: 650px;
   }
 }
 
@@ -777,6 +785,15 @@ section.shop {
     padding-top: 75%;
   }
 
+  section.twitter {
+    min-height: 750px;
+  }
+}
+
+@media (min-height: 280px) {
+  section.twitter {
+    min-height: 800px;
+  }
 }
 
 
