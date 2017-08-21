@@ -38,6 +38,22 @@ body {
   background-size: contain;
 }
 
+.page-header .menu-toggle {
+  display: none;
+  float: right;
+  margin-top: 40px;
+  margin-right: 10%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.page-header .menu-toggle:before {
+  content: "\2261";
+  font: 2em "arial";
+}
+
 .main-nav {
   max-width: 670px;
   margin: 0 auto;
@@ -621,6 +637,21 @@ section.shop {
 }
 
 @media (max-width: 1070px) {
+
+  .logo {
+    left: 10%;
+    margin-top: -10px;
+  }
+
+  .main-nav ul li {
+    display: none;
+  }
+
+
+  .page-header .menu-toggle {
+    display: block;
+  }
+
   .work .work-item {
     width: 100%;
   }
@@ -810,4 +841,26 @@ section.shop {
   .shop .shop-item.high:hover {
     padding-top: 85%;
   }
+}
+
+
+.main-nav-min {
+  margin: 0 auto;
+  width: 100px;
+}
+
+.main-nav-min ul {
+  margin-top: 50px;
+}
+
+.main-nav-min ul li {
+  display: block;
+  float: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav-min ul li.right {
+  float: none;
 }
