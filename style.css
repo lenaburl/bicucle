@@ -731,7 +731,7 @@ section.shop {
   }
 
   section.twitter {
-    min-height: 600px;
+    height: 600px;
   }
 }
 
@@ -750,7 +750,7 @@ section.shop {
   }
 
   section.twitter {
-    min-height: 650px;
+    height: 650px;
   }
 }
 
@@ -786,13 +786,13 @@ section.shop {
   }
 
   section.twitter {
-    min-height: 750px;
+    height: 700px;
   }
 }
 
 @media (min-height: 280px) {
   section.twitter {
-    min-height: 800px;
+    height: 800px;
   }
 }
 
@@ -825,5 +825,9 @@ section.shop {
 
   .shop .shop-item.high:hover {
     padding-top: 85%;
+  }
+
+  section.twitter {
+    max-height: 900px;
   }
 }
