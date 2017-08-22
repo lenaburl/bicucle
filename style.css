@@ -809,6 +809,11 @@ section.shop {
   .shop .shop-item.high:hover {
     padding-top: 75%;
   }
+
+  .shop .discover-shop a {
+    font-size: 12px;
+    padding: 15px 20px;
+  }
 }
 
 
@@ -840,6 +845,11 @@ section.shop {
 
   .shop .shop-item.high:hover {
     padding-top: 85%;
+  }
+
+  .shop .discover-shop a {
+    font-size: 11px;
+    padding: 15px 10px;
   }
 }
 
