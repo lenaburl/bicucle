@@ -1,5 +1,4 @@
-# bicycle
-Landing Page
+# Bicycle Landing Page
 
 I've done example of simple landing page.
 
